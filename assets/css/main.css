@@ -2475,14 +2475,14 @@ ul.SkilsIcons {
 ul.SkilsIcons li {
   display: inline-block;
   padding: 0 1em 0 0;
-  font-size: 90px;
+  font-size: 60px;
   color: #e7b788;
 }
 
 ul.SkilsIcons li {
   display: inline-block;
   padding: 0 1em 0 0;
-  font-size: 90px;
+  font-size: 60px;
   font-weight: bold;
   color: #eed7fd;
 }
@@ -2988,7 +2988,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 5):before {
-  background-color: #6fc3df;
+  background-color: #e7b788;
 }
 
 .tiles article:nth-child(6n - 4):before {
@@ -2996,11 +2996,11 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 3):before {
-  background-color: #ec8d81;
+  background-color: #6fc3df;
 }
 
 .tiles article:nth-child(6n - 2):before {
-  background-color: #e7b788;
+  background-color: ;
 }
 
 .tiles article:nth-child(6n - 1):before {
@@ -3286,7 +3286,8 @@ button:disabled,
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: #ffffff;
-  color: #242943;
+  color: #1b9d10f0;
+  font-weight: bolder;
   display: inline-block;
   line-height: 1.65em;
   margin-right: 0.325em;
@@ -3550,7 +3551,7 @@ body.is-preload #header.alt {
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
   pointer-events: none;
-  background-color: #242943;
+  background-color: #89f180f0;
   content: '';
   display: block;
   height: 100%;
